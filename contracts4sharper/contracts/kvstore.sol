@@ -4,10 +4,10 @@ contract KVstore {
 
   mapping(string=>string) store;
 
-  function get(string key) constant returns(string) {
+  function get(string key) public constant returns(string) {
     return store[key];
   }
-  function set(string key, string value) {
+  function set(string key, string value) public {
     store[key] = value;
   }
 }

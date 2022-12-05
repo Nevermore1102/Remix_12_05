@@ -64,9 +64,9 @@
 	},
 	"sources": {
 		"contracts4sharper/contracts/kvstore.sol": {
-			"keccak256": "0x21ff1acfb3c4a74c5a5f3397389205775b5f6dabd43e43c0bbeda96e8f785e7b",
+			"keccak256": "0xe3506e56f236cb7cc02b2a7f38f1286e828a9964328fb64791aa60a2a1c9b11c",
 			"urls": [
-				"bzzr://e354d7dc44a2d2b494eeddff55482a84e252588db839a59e1b81547bff073479"
+				"bzzr://cd3cf107daa758ed85a0d15d91d4c3d8745d885846fabf8c8130214a6a2ec619"
 			]
 		}
 	},
