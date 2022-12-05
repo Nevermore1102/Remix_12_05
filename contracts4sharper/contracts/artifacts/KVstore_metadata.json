@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "key",
+						"type": "string"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "key",
+						"type": "string"
+					},
+					{
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts4sharper/contracts/kvstore.sol": "KVstore"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts4sharper/contracts/kvstore.sol": {
+			"keccak256": "0x21ff1acfb3c4a74c5a5f3397389205775b5f6dabd43e43c0bbeda96e8f785e7b",
+			"urls": [
+				"bzzr://e354d7dc44a2d2b494eeddff55482a84e252588db839a59e1b81547bff073479"
+			]
+		}
+	},
+	"version": 1
+}

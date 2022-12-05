@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					},
+					{
+						"name": "arg1",
+						"type": "uint256"
+					}
+				],
+				"name": "updateSaving",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					},
+					{
+						"name": "arg1",
+						"type": "uint256"
+					}
+				],
+				"name": "writeCheck",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					},
+					{
+						"name": "arg1",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBalance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					},
+					{
+						"name": "arg1",
+						"type": "string"
+					}
+				],
+				"name": "almagate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "arg0",
+						"type": "string"
+					},
+					{
+						"name": "arg1",
+						"type": "string"
+					},
+					{
+						"name": "arg2",
+						"type": "uint256"
+					}
+				],
+				"name": "sendPayment",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts4sharper/contracts/smallbank.sol": "SmallBank"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts4sharper/contracts/smallbank.sol": {
+			"keccak256": "0x31c7879c56ff319f1ec052a449599a694c4b0c029d52799ac1b88c3dd94ecc75",
+			"urls": [
+				"bzzr://6b03e0e8ce2efd0a93fba4926e385b191c55b7cea85c18a5d47dae34f3fc7bfc"
+			]
+		}
+	},
+	"version": 1
+}
